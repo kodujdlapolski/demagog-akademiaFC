@@ -1,0 +1,16 @@
+﻿
+C4PL - one of Code for Poland ("Koduj dla Polski") team
+init: Małgorzata Kilian
+created-by: Emilia Wanat
+
+We create PoC for 
+Academy of Fact-Checking.
+
+It's example for new projects div into 3 parts:
+- informative function (here: static info in steps)
+- tiny registration for list creation (here: schools reg. form with reporting funtion)
+- blog/story/active content presentation function (here: edu blog)
+
+---
+
+UI repo
