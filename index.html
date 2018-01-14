@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0A264F;">
     <a class="navbar-brand" href=""><img src="logo_AFCH-01.svg" width="30" height="30" alt="Logo Akademii Fact-checkingu" class="nav-logo"></a>
@@ -33,6 +34,7 @@
       </ul>
     </div>
   </nav>
+
   <!-- Header -->
   <header id="akademia">
     <div class="container">
@@ -41,7 +43,8 @@
       <h1 class="text-center">Krytyczny umysł to kluczowe narzędzie w każdych czasach, jednak szczególnie ważne w okresie masowej dezinformacji.</h1>
     </div>
   </header>
-  <!-- Quote -->
+
+  <!-- Icons -->
   <div id="about">
     <div class="container">
       <div class="row">
@@ -49,7 +52,7 @@
           <h2 class="text-center mb-0">Akademia jest projektem realizowanym przez Stowarzyszenie Demagog, której celem jest dostarczanie młodym ludziom niezbędnej wiedzy o faktach oraz prawdziwych informacjach, którą możemy czerpać tylko z rzetelnych i wiarygodnych źródeł.</h2>
         </div>
       </div>
-      <!-- Icons -->
+
       <div class="row">
         <div class="col-md-4">
           <div class="icons"> <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
@@ -73,36 +76,48 @@
       </div>
     </div>
   </div>
+
   <!-- Gallery -->
-  <div class="container">
-    <div class="team-header text-center" id="gallery"> Prowadzimy zajęcia dla uczniów w całej Polsce!</div>
-    <div class="row">
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-        <img src="Galeria\2.jpg" class="img-responsive" />
-        <i class="shine_effect"></i>
+  <div class="team-header text-center" id="gallery"> Prowadzimy zajęcia dla uczniów w całej Polsce!</div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="Galeria\1.jpg" alt="First slide">
       </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-        <img src="Galeria\1.jpg" class="img-responsive" />
-        <i class="shine_effect"></i>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Galeria\2.jpg" alt="Second slide">
       </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-        <img src="Galeria\3.jpg" class="img-responsive" />
-        <i class="shine_effect"></i>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Galeria\3.jpg" alt="Third slide">
       </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-        <img src="Galeria\13.jpg" class="img-responsive" />
-        <i class="shine_effect"></i>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Galeria\6.jpg" alt="Third slide">
       </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-        <img src="Galeria\11.jpg" class="img-responsive" />
-        <i class="shine_effect"></i>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Galeria\11.jpg" alt="Third slide">
       </div>
-      <div class="col-md-4 col-sm-4 col-xs-6 shine_me">
-        <img src="Galeria\6.jpg" class="img-responsive" />
-        <i class="shine_effect"></i>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Galeria\13.jpg" alt="Third slide">
       </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
   </div>
+
   <!-- Stats -->
   <div class="stats-content">
     <div class="container">
@@ -129,6 +144,7 @@
       </div>
     </div>
   </div>
+
   <!-- Form -->
   <form id="form">
     <div class="container">
@@ -138,28 +154,29 @@
           <div class="row justify-content-center">
             <div class="form-group col-md-7">
               <label for="inputName" class="col-form-label">Imię i nazwisko</label>
-              <input type="email" class="form-control" id="inputName" placeholder="Maria Nowak"> </div>
+              <input type="email" class="form-control" id="inputName"> </div>
           </div>
           <div class="row justify-content-center">
             <div class="form-group col-md-7">
               <label for="inputEmail" class="col-form-label">E-mail</label>
-              <input type="text" class="form-control" id="inputEmail" placeholder="maria.nowak@szkola.pl"> </div>
+              <input type="text" class="form-control" id="inputEmail"> </div>
           </div>
           <div class="row justify-content-center">
             <div class="form-group col-md-7">
               <label for="inputSchool" class="col-form-label">Nazwa szkoły</label>
-              <input type="text" class="form-control" id="inputSchool" placeholder="IV Liceum Ogólnokształcące"> </div>
+              <input type="text" class="form-control" id="inputSchool"> </div>
           </div>
           <div class="row justify-content-center">
             <div class="form-group col-md-7">
               <label for="inputCity" class="col-form-label">Miasto</label>
-              <input type="text" class="form-control" id="inputCity" placeholder="Katowice"> </div>
+              <input type="text" class="form-control" id="inputCity"> </div>
           </div>
           <div class="text-center"><a class="btn btn-dark" href="#" role="button">Wyślij zgłoszenie</a></div>
         </div>
       </div>
     </div>
   </form>
+
   <!-- Blog posts -->
   <div class="blog" id="blog">
     <div class="container">
@@ -177,7 +194,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint expedita exercitationem nostrum, eligendi quis, esse quos atque in molestias animi.</p>
               <div class="text-right"> <a href="" class="btn btn-primary">Zobacz</a></div>
             </div>
-            <!--<span class="blog-date">17 września 2017</span>--></div>
+          </div>
         </div>
         <div class="col-md-4">
           <div class="single-blog-item">
@@ -189,7 +206,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint expedita exercitationem nostrum, eligendi quis, esse quos atque in molestias animi.</p>
               <div class="text-right"> <a href="" class="btn btn-primary">Zobacz</a></div>
             </div>
-            <!--<span class="blog-date">1 października 2017</span>--></div>
+          </div>
         </div>
         <div class="col-md-4">
           <div class="single-blog-item">
@@ -201,11 +218,12 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint expedita exercitationem nostrum, eligendi quis, esse quos atque in molestias animi.</p>
               <div class="text-right"> <a href="" class="btn btn-primary">Zobacz</a></div>
             </div>
-            <!--<span class="blog-date">14 października 2017</span>--></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
   <!--Support-->
   <div class="support" id="support">
     <div class="container">
@@ -218,6 +236,7 @@
       </div>
     </div>
   </div>
+
   <!-- Team -->
   <div class="team-content">
     <div class="container">
@@ -261,31 +280,28 @@
       </div>
     </div>
   </div>
+
   <!--Partners-->
   <div id="partners">
     <div class="container">
       <div class="row">
         <div class="col-md">
           <div class="blog-header text-center">Partnerzy</div>
-          <div class="mx-auto"><img alt="Logo Ambasady Stanów Zjednoczonych Ameryki" src="Logo NEW PL color.png"></div>
-          <div class="col-md-7"><img alt="Logo Koduj dla Polski" src="kdp-logo-1-300x145-300x145.png"></div>
+          <div class="mx-auto"><img alt="Logo Ambasady Stanów Zjednoczonych Ameryki" src="./Partnerzy/Logo NEW PL color.png"></div>
+          <div class="col-md-7"><img alt="Logo Koduj dla Polski" src="./Partnerzy/kdp-logo-1-300x145-300x145.png"></div>
         </div>
         <div class="col-md">
           <div class="blog-header text-center">Patroni medialni</div>
-          <div class="mx-auto"><img alt="Logo Rzeczpospolitej" src="facebook_logo_rp.jpg"></div>
+          <div class="mx-auto"><img alt="Logo Rzeczpospolitej" src="./Partnerzy/facebook_logo_rp.jpg"></div>
           <div class="row">
-            <div class="col mx-auto"><img alt="Logo Perspektyw" src="logo-perspektyw.jpg"></div>
-            <div class="col mx-auto"><img alt="Logo Cogito" src="cogito.png"></div>
+            <div class="col mx-auto"><img alt="Logo Perspektyw" src="./Partnerzy/logo-perspektyw.jpg"></div>
+            <div class="col mx-auto"><img alt="Logo Cogito" src="./Partnerzy/cogito.png"></div>
           </div>
         </div>
-        <!--<div class="blog-header text-center">Partnerzy</div>
-      <div class="row justify-content-center">
-        <div class="col-sm-6"><img alt="Logo Ambasady Stanów Zjednoczonych Ameryki" width="955" height="225" src="Logo NEW PL color.png"></div>
-        <div class="col-sm-3"><img alt="Logo Koduj dla Polski" width="150" height="72.5" src="kdp-logo-1-300x145-300x145.png"></div>
-      </div>-->
       </div>
     </div>
   </div>
+
   <!-- Footer -->
   <footer>
     <div class="container" id="footer">
@@ -304,13 +320,13 @@
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-4 col-12">
+          <!--<span>Media społecznościowe</span>-->
           <ul class="social li">
-            <!--<span>Media społecznościowe</span>-->
             <li><a href="https://www.facebook.com/akademiafactcheckingu/" target="_blank"><i class="fa fa-facebook-official fa-4x"></i></a></li>
             <li><a href="https://twitter.com/dmggPL" target="_blank"><i class="fa fa-twitter fa-4x"></i></a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-12"><img alt="Logo stowarzyszenia Demagog" width="0" height="0" src="logo_demagog_białe-01.svg"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12"><img alt="Logo stowarzyszenia Demagog" width="0" height="0" src="./Partnerzy/logo_demagog_białe-01.svg"></div>
       </div>
     </div>
   </footer>
